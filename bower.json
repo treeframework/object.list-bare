@@ -1,0 +1,18 @@
+{
+  "name": "tree-bare-list",
+  "version": "0.1.0",
+  "homepage": "https://github.com/treeframework/object.bare-list",
+  "authors": [
+    "Ilia Kolev <treeframework@iliakolev.com>"
+  ],
+  "description": "TreeFramework - simple object to remove bullets and indents from lists.",
+  "main": "_bare-list.scss",
+  "keywords": [
+    "TreeFramework",
+    "css"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "inuit-defaults": "~0.1.0"
+  }
+}
