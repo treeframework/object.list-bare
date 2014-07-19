@@ -4,8 +4,14 @@
 
 // The bare-list object simply removes any indents and bullet points from lists.
 
-.#{$tree-namespace}bare-list,
-%#{$tree-namespace}bare-list {
+
+
+// Predefine the variables bellow in order to alter and enable specific features.
+$tree-bare-list-namespace:    $tree-namespace !default;
+
+
+.#{$tree-bare-list-namespace}bare-list,
+%#{$tree-bare-list-namespace}bare-list {
     margin:  0;
     padding: 0;
     list-style: none;
