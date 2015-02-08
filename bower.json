@@ -1,21 +1,16 @@
 {
   "name": "tree-list-bare",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "homepage": "https://github.com/treeframework/object.list-bare",
-  "authors": [
-    "Harry Roberts <harry@csswizardry.com>",
-    "Ilia Kolev <info@iliakolev.com>"
-  ],
+  "author": "Ilia Kolev <info@iliakolev.com>",
   "description": "Simple object to remove bullets and indents from lists.",
   "main": "_object.list-bare.scss",
-  "ignore": [
-    "*.md"
-  ],
   "keywords": [
+    "oocss",
     "css"
   ],
-  "license": "Apache",
+  "license": "MIT",
   "dependencies": {
-    "tree-defaults": "~0.2.4"
+    "tree-defaults": "~0.2.5"
   }
 }
