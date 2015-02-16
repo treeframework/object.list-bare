@@ -55,6 +55,8 @@ its Object layer.
 
 ## Usage
 
+Basic usage of the List-bare module uses the required classes:
+
 ```html
 <ul class="list-bare">
     <li>Simply removes</li>
