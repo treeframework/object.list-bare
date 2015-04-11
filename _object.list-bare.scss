@@ -1,20 +1,38 @@
-// *************************************
+// =============================================================================
 //
-//   #LIST-BARE
+// Name:          List-bare
 //
-// *************************************
+// Description:   Removes any indents and bullets points from lists.
+//
+// Block:         `o-list-bare`
+//
+// Markup:
+//
+// <ul class="o-list-bare">
+//     <li>Foo</li>
+//     <li>Bar</li>
+// </ul>
+//
+// =============================================================================
 
-// The list-bare object simply removes any indents and bullet points from lists.
 
-// Predefine the variables bellow in order to alter and enable specific features.
+
+
+
+// Variables
+// =============================================================================
+
+// Predefine the variables bellow in order to alter and enable specific
+// features.
+
 $tree-list-bare-namespace: $tree-namespace !default;
 
 
 
 
 
-.#{$tree-list-bare-namespace}list-bare,
-%#{$tree-list-bare-namespace}list-bare {
+.#{$tree-list-bare-namespace}o-list-bare,
+%#{$tree-list-bare-namespace}o-list-bare {
     margin:  0;
     padding: 0;
     list-style: none;
