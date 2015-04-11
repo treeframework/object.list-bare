@@ -58,7 +58,7 @@ its Object layer.
 Basic usage of the List-bare module uses the required classes:
 
 ```html
-<ul class="list-bare">
+<ul class="o-list-bare">
     <li>Simply removes</li>
     <li>bullets and indents</li>
     <li>from lists</li>
