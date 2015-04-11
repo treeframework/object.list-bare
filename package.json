@@ -1,7 +1,7 @@
 {
   "name": "tree-list-bare",
   "description": "A simple object to remove bullets and indents from lists.",
-  "version": "0.3.6",
+  "version": "0.4.0",
   "author": "Ilia Kolev <info@iliakolev.com>",
   "bugs": {
     "url": "https://github.com/treeframework/object.list-bare/issues"
