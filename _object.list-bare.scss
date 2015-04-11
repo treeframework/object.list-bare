@@ -31,6 +31,10 @@ $tree-list-bare-namespace: $tree-namespace !default;
 
 
 
+// =============================================================================
+// Block: `o-list-bare`
+// =============================================================================
+
 .#{$tree-list-bare-namespace}o-list-bare,
 %#{$tree-list-bare-namespace}o-list-bare {
     margin:  0;
